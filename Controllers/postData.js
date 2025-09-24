@@ -6,7 +6,7 @@ const Razorpay = require('razorpay');
 const User = require('../Models/userModel');
 const Ride = require('../Models/rideModel');
 const Bookings = require('../Models/bookingModel')
-const { readUsers, writeUsers } = require('../utils/filedb');
+const { readUsers, writeUsers } = require('../utils/fileDB');
 
 
 async function sign(req, res) {

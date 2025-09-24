@@ -1,4 +1,4 @@
-const { readUsers, writeUsers } = require('../utils/filedb');
+const { readUsers, writeUsers } = require('../utils/fileDB');
 const Ride=require('../Models/rideModel')
 async function bookingMiddleware(req,res,next){
     const { rideId, seatsBooked } = req.body;

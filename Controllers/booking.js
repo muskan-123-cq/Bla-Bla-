@@ -1,5 +1,5 @@
 //bookings.js
-const { readUsers, writeUsers } = require('../utils/filedb');
+const { readUsers, writeUsers } = require('../utils/fileDB');
 const uuid=require('uuid');
 const Ride=require('../Models/rideModel')
 const Bookings=require('../Models/bookingModel');
