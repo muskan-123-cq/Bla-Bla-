@@ -1,0 +1,58 @@
+[
+  {
+    "id": "f3450e63-a25e-470e-ab9d-6afb681bac05",
+    "Name": "rajan",
+    "Email": "rajan",
+    "Pass": "$2b$10$xP00c0wG310.3GHUxlPJE.sK63q2wJWlpZkdVnJtJ83OMimyvU38C",
+    "role": "passenger"
+  },
+  {
+    "id": "8c108136-3736-462a-b7a4-16d8cace795f",
+    "Name": "a",
+    "Email": "a",
+    "Pass": "$2b$10$21ZxQDTzPYWIlups7GNpf.gJ9.D.CpFnCJnHOs/nLSwFZhxEYFr7O",
+    "role": "passenger"
+  },
+  {
+    "id": "fda83424-59d1-46f7-bd03-eb3043a25403",
+    "Name": "a",
+    "Email": "b",
+    "Pass": "$2b$10$2WSO4qModwraGRLNmHnRnu.fUhVgC1cvi53bUS5JKNG.1nzGfk986",
+    "role": "passenger"
+  },
+  {
+    "id": "84a40e54-dd49-4b6f-b720-0b899dfb6ca5",
+    "Name": "a",
+    "Email": "c",
+    "Pass": "$2b$10$xhrXLOR72lz6.8WdNwfcyuCq8S.WLZW9/cso6bHUw9uZ3vcDpJlli",
+    "role": "passenger"
+  },
+  {
+    "id": "ad2e9293-62eb-4fe4-b15f-1fa1f40b88c9",
+    "Name": "a",
+    "Email": "d",
+    "Pass": "$2b$10$h/pnldCFpOAU1EKZTBbc3.m8fbFp61yrKy5fYbYXfPZa4cFourSSy",
+    "role": "passenger"
+  },
+  {
+    "id": "eee257f3-7ed7-4cf5-aa7e-397cdd760165",
+    "Name": "g",
+    "Email": "g",
+    "Pass": "$2b$10$sOWkMwDNFHcol3thA6CMQ.dwyGoz/XQbfbUtMWEI924nih.z2q6J6",
+    "role": "driver"
+  },
+  {
+    "id": "e96bbe9e-8237-4920-8bf2-bf0203286479",
+    "Name": "muskan",
+    "Email": "mus",
+    "Pass": "$2b$10$xcxuNdmimrquKw7LbKJaC.udyFQ7orSPc.EJu8TDyt/nwuopkeJhW",
+    "role": "passenger"
+  },
+  {
+    "id": "304b122b-db34-4845-a7bd-b728e49e2bd0",
+    "Name": "rajan",
+    "Email": "rajan123",
+    "Pass": "$2b$10$k/l4UowiFrVuDZq5INi52.Iv10LOQAWbYNoUOc8NcsUcKqYstr3oW",
+    "role": "driver"
+  }
+]

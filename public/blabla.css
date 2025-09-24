@@ -1,0 +1,217 @@
+/* #box{
+    margin: 100px 380px;
+    border: 2px solid grey;
+    padding: 40px;
+    width: 300px;
+}
+input,button{
+    margin: 10px;
+} */
+ /* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Off-white background */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#user-info {
+  display: flex;
+  align-items: center;   /* circle aur text ek hi line me center ho jaayenge */
+  gap: 8px;              /* circle aur naam ke beech thoda gap */
+  cursor: pointer;
+}
+/* Main Container */
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+#nav {
+    display: flex;
+    justify-content: flex-end; /* All links to the right side */
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+/* "Ride Share" text in nav */
+#nav span { /* Agar aapne isko span tag mein rakha hai */
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #8a2be2; /* Soft purple */
+    margin-right: auto; /* This pushes the links to the right */
+}
+/* Agar aapne isko a tag mein rakha hai */
+#nav a:first-child {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #8a2be2; /* Soft purple */
+    margin-right: auto;
+    background-color: transparent;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* space between form and image */
+    margin-top: 50px;
+}
+
+.image-container img {
+    max-width: 500px;  /* image ki size control */
+    height: 360px;
+    border-radius: 10px;
+}
+
+
+#nav a:hover {
+    background-color: #e9e9f2;
+}
+
+/* Main Box for Form */
+#box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading H1 */
+#box h1 {
+    font-size: 2.2em;
+    color: #6a0dad;
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 80%; /* Width increased for better looks */
+    max-width: 400px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* To remove the default arrows on number input in some browsers */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+input::placeholder {
+    color: #aaa;
+}
+
+/* Search Button */
+#search {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    border: none;
+    background-color: #9370db; /* Medium purple */
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search:hover {
+    background-color: #8a2be2; /* Slightly darker purple on hover */
+}
+#yediv {
+  display: inline-flex;       
+  align-items: center;        
+  justify-content: center;    
+  border: 2px solid #8a2be2;
+  border-radius: 50%;         
+  min-width: 50px;            
+  min-height: 50px;
+  color: #555;
+}
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+#form_details{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+}/* 🔹 Rides list container */
+#rides-list-container {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column; /* ride cards ek ke niche ek */
+  align-items: flex-start;/* left align cards */
+  gap: 15px;
+  font-family: Arial, sans-serif;
+  width: fit-content;   /* sirf content ke according width */
+}
+
+/* 🔹 Each ride card */
+#rides-list-container div {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background: #fff;
+  display: inline-block;   /* block ko shrink kar dega */
+}
+
+/* 🔹 Ride info text */
+#rides-list-container p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+/* 🔹 Buttons */
+#rides-list-container button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#rides-list-container button:hover {
+  background-color: #0056b3;
+}

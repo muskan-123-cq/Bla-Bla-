@@ -1,0 +1,78 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Consistent light background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex; /* Centering the form */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Form Wrapper (for centering) */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Form Container Box */
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Limiting width for a clean look */
+}
+
+/* Heading H2 */
+.form-container h2 {
+    font-size: 2em;
+    color: #6a0dad; /* A soft, deep purple */
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: calc(100% - 24px); /* Full width with padding */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* Placeholder styles */
+.form-container input::placeholder {
+    color: #aaa;
+}
+
+/* Buttons */
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #9370db; /* Medium purple */
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.form-container button:hover {
+    background-color: #8a2be2; /* Slightly darker purple on hover */
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1d9f290a-c8c7-4a95-92e0-257ea0e3d469",
+    "rideId": "92ccd7ac-2e3b-49d8-ae02-5cc14ad58b24",
+    "customerId": "0b9d2d82-afa7-46d7-83d6-d5ad9e195938",
+    "customerName": "seema",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "bookingTime": "2025-08-25T05:17:07.525Z"
+  },
+  {
+    "id": "d85b5ed3-b773-4bfe-b613-3f05f5b248a7",
+    "rideId": "92ccd7ac-2e3b-49d8-ae02-5cc14ad58b24",
+    "customerId": "0b9d2d82-afa7-46d7-83d6-d5ad9e195938",
+    "customerName": "seema",
+    "seatsBooked": 1,
+    "status": "confirmed",
+    "bookingTime": "2025-08-25T05:18:54.890Z"
+  }
+]

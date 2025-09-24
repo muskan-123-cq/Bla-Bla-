@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="userDetails.css">
+</head>
+<body>
+    <div id="user"></div>
+    <div class="profile-actions">
+        
+        <div id="bookings"><strong>My bookings</strong> <br> View and manage your ride bookings</div>
+        <div id="rides"><strong>My rides </strong><br> View and manage your offer rides</div>
+        <div id="logout"> <strong>Logout</strong><br>Sign out of your account</div>
+        </div>
+        <div class="my-rides-section">
+            <h2>My Published Rides</h2>
+            <select id="sort">
+                <option value="low">Price Low to High</option>
+                <option value="high">Price High to Low</option>
+                <option value="early">Early rides</option>
+                <option value="seats">Seats Available</option>
+
+            </select>
+            <div id="rides-list">
+                <p style="text-align: center;">Loading your rides...</p>
+            </div>
+        </div>
+        <div id="booking-table" style="display: none;"> <table>
+    <thead>
+      <tr>
+        <td>Departure</td>
+        <td>Destination</td>
+        <td>Seats</td>
+        <td>Status</td>
+        <td>Action</td>
+      </tr>
+    </thead>
+<tbody id="booking-table-body">
+      <!-- JS se rows append honge -->
+    </tbody>
+  </table>
+</div>
+        <div id="editForm" style="display:none; margin-top:20px;">
+            <div id="updateRideForm">
+    <h3>Edit Ride</h3>
+    <input type="hidden" id="rideId">
+    <label>From: <input type="text" id="from"></label><br>
+    <label>To: <input type="text" id="to"></label><br>
+    <label>Seats: <input type="number" id="seats"></label><br>
+    <button id="submit">Save</button>
+            </div>
+</div>
+    
+<script src="userDetails.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Off-white background */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Container */
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+#nav {
+    display: flex;
+    justify-content: flex-end; /* All links to the right side */
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+/* "Ride Share" text in nav */
+#nav span { /* Agar aapne isko span tag mein rakha hai */
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #8a2be2; /* Soft purple */
+    margin-right: auto; /* This pushes the links to the right */
+}
+/* Agar aapne isko a tag mein rakha hai */
+#nav a:first-child {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #8a2be2; /* Soft purple */
+    margin-right: auto;
+    background-color: transparent;
+}
+
+
+#nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#nav a:hover {
+    background-color: #e9e9f2;
+}
+
+/* Main Box for Form */
+#box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading H1 */
+#box h1 {
+    font-size: 2.2em;
+    color: #6a0dad;
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 80%; /* Width increased for better looks */
+    max-width: 400px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+/* To remove the default arrows on number input in some browsers */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+
+input::placeholder {
+    color: #aaa;
+}
+
+/* Search Button */
+#search {
+    width: 80%;
+    max-width: 400px;
+    padding: 12px;
+    border: none;
+    background-color: #9370db; /* Medium purple */
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search:hover {
+    background-color: #8a2be2; /* Slightly darker purple on hover */
+}
+
+#user-info {
+  display: inline-flex;       
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+  border: 2px solid #8a2be2;
+  border-radius: 50%;         /* circle banane ke liye */
+  min-width: 50px;            /* minimum size */
+  min-height: 50px;
+  color: #555;
+}
+
+
+/* Hover effect */
+/* #user-info:hover { */
+  /* background-color: #4a90e2; */
+  /* color: #fff; */
+  /* transform: scale(1.1);         thoda zoom effect */
+/* } */
