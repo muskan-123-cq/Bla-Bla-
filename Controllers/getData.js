@@ -1,4 +1,4 @@
-const { readUsers } = require("../utils/fileDB");
+
 const Ride=require('../Models/rideModel');
 const Bookings=require('../Models/bookingModel');
 function getMe(req, res) {
